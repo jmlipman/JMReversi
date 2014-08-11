@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LIPMANPC</Machine>
+    <WindowsUser>JuanMiguel</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\JuanMiguel\Documents\Visual Studio 2012\Projects\Reversi1\Reversi1\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\JuanMiguel\Documents\Visual Studio 2012\Projects\Reversi1\Reversi1\bin\Debug\JMReversi.exe">
+      <PackagePath>JMReversi.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JuanMiguel\Documents\Visual Studio 2012\Projects\Reversi1\Reversi1\bin\Debug\JMReversi.pdb">
+      <PackagePath>JMReversi.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JuanMiguel\Documents\Visual Studio 2012\Projects\Reversi1\Reversi1\Assets\background.jpg">
+      <PackagePath>Assets\background.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JuanMiguel\Documents\Visual Studio 2012\Projects\Reversi1\Reversi1\Assets\blacktoken.png">
+      <PackagePath>Assets\blacktoken.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JuanMiguel\Documents\Visual Studio 2012\Projects\Reversi1\Reversi1\Assets\englishflag.png">
+      <PackagePath>Assets\englishflag.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JuanMiguel\Documents\Visual Studio 2012\Projects\Reversi1\Reversi1\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JuanMiguel\Documents\Visual Studio 2012\Projects\Reversi1\Reversi1\Assets\pass.png">
+      <PackagePath>Assets\pass.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JuanMiguel\Documents\Visual Studio 2012\Projects\Reversi1\Reversi1\Assets\restart.png">
+      <PackagePath>Assets\restart.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JuanMiguel\Documents\Visual Studio 2012\Projects\Reversi1\Reversi1\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JuanMiguel\Documents\Visual Studio 2012\Projects\Reversi1\Reversi1\Assets\spanishflag.png">
+      <PackagePath>Assets\spanishflag.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JuanMiguel\Documents\Visual Studio 2012\Projects\Reversi1\Reversi1\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JuanMiguel\Documents\Visual Studio 2012\Projects\Reversi1\Reversi1\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JuanMiguel\Documents\Visual Studio 2012\Projects\Reversi1\Reversi1\Assets\whitetoken.png">
+      <PackagePath>Assets\whitetoken.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JuanMiguel\Documents\Visual Studio 2012\Projects\Reversi1\Reversi1\Assets\flip.wav">
+      <PackagePath>Assets\flip.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JuanMiguel\Documents\Visual Studio 2012\Projects\Reversi1\Reversi1\Assets\tada.wav">
+      <PackagePath>Assets\tada.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JuanMiguel\Documents\Visual Studio 2012\Projects\Reversi1\Reversi1\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JuanMiguel\Documents\Visual Studio 2012\Projects\Reversi1\Reversi1\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JuanMiguel\Documents\Visual Studio 2012\Projects\Reversi1\Reversi1\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JuanMiguel\Documents\Visual Studio 2012\Projects\Reversi1\Reversi1\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

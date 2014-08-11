@@ -1,0 +1,47 @@
+﻿<Page
+    x:Class="Reversi1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Reversi1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <!--<Grid Name="MainGrid" Background="{StaticResource ApplicationPageBackgroundThemeBrush}">-->
+    <!--<Grid Name="MainGrid" Background="#646464">-->
+    <Grid Name="MainGrid">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/background.jpg"></ImageBrush>
+        </Grid.Background>
+        
+            <Grid Name="TableroGrid">
+            <TextBlock Name="jugadasrealizadas" Visibility="Collapsed" HorizontalAlignment="Left" Height="21" Margin="211,104,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="326" FontSize="16"/>
+            <TextBlock Name="jugadas"  Visibility="Collapsed" HorizontalAlignment="Left" Height="54" Margin="211,139,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="326" FontSize="16"/>
+            <TextBlock Name="turnoactual" HorizontalAlignment="Left" Height="121" Margin="1060,224,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="306" FontSize="23"/>
+            <!--<Button Name="reiniciartableroboton" HorizontalAlignment="Left" Margin="1093,423,0,0" VerticalAlignment="Top" Click="ReiniciarTablero_Click"/>-->
+            <Grid PointerPressed="ReiniciarTablero_Click">
+                <Image Source="Assets/restart.png" Width="30" Height="30" Margin="1045,293,291,445" />
+                <TextBlock Name="reiniciartableroboton" Margin="1080,295,81,443" FontSize="18" Foreground="black" />
+            </Grid>
+                
+            <!--<Button Name="pasarturnoboton" HorizontalAlignment="Left" Margin="1093,354,0,0" VerticalAlignment="Top" Click="CambiarTurno_Click"/>-->
+            <Grid PointerPressed="CambiarTurno_Click">
+                <Image Source="Assets/pass.png" Width="30" Height="30" Margin="1045,345,291,393" />
+                <TextBlock Name="pasarturnoboton" Margin="1080,347,81,391" FontSize="18" Foreground="black" />
+                <ProgressRing Foreground="White" Name="progressring" HorizontalAlignment="Left" Height="100" Margin="462,10,0,0" VerticalAlignment="Top" Width="100"/>
+            </Grid>
+
+            
+            <Image Name="banderaespaña" HorizontalAlignment="Left" Height="30" Margin="769,23,0,0" VerticalAlignment="Top" Width="45" PointerPressed="banderaClick"/>
+            <Image Name="banderainglaterra" HorizontalAlignment="Left" Height="30" Margin="846,23,0,0" VerticalAlignment="Top" Width="45" PointerPressed="banderaClick"/>
+            <MediaElement Name="tada" AutoPlay="False" Source="Assets/tada.wav" HorizontalAlignment="Left" Height="100" Margin="864,162,0,0" VerticalAlignment="Top" Width="100"/>
+            <MediaElement Name="flip" AutoPlay="False" Source="Assets/flip.wav" HorizontalAlignment="Left" Height="100" Margin="864,162,0,0" VerticalAlignment="Top" Width="100"/>
+            <TextBlock Name="jug1" Visibility="Collapsed" HorizontalAlignment="Left" Height="28" Margin="68,278,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="126" FontSize="14"/>
+            <TextBlock Name="jug2" Visibility="Collapsed" HorizontalAlignment="Left" Height="28" Margin="68,311,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="126" FontSize="14"/>
+            <Button Name="randomjug2" Visibility="Collapsed" Content="" HorizontalAlignment="Left" Margin="252,306,0,0" VerticalAlignment="Top"/>
+            <Button Name="randomjug1" Visibility="Collapsed" Content="" HorizontalAlignment="Left" Margin="252,267,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        
+
+    </Grid>
+</Page>

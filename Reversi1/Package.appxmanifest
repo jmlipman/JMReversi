@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="58279JuanMiguelValverdeMa.JMReversi" Publisher="CN=69440787-508B-4ADB-83D5-55C568E6C7E3" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>JMReversi</DisplayName>
+    <PublisherDisplayName>Juan Miguel Valverde Martinez</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="JMReversi.App">
+      <VisualElements DisplayName="JMReversi" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="JMReversi" ForegroundText="light" BackgroundColor="#77be3f">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#77be3f" />
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
